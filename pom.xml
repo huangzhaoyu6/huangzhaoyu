@@ -48,10 +48,4 @@
         </plugins>
     </build>
 
-    <aop:aspectj-autoproxy/>
-    <bean id="test" class="com.yhl.myspring.demo.aop.TestBean">
-        <property name="message" value="这是一个苦逼的程序员"/>
-    </bean>
-    <bean id="aspect" class="com.yhl.myspring.demo.aop.AspectJTest"/>
-
 </project>
